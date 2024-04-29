@@ -1,8 +1,0 @@
-# Exported from Render on 2024-04-29T02:14:16Z
-services:
-- type: web
-  name: MapachePedro-Andy
-  runtime: static
-  repo: https://github.com/garcia-andy/MapachePedro
-  staticPublishPath: .
-version: "1"
