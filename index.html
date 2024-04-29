@@ -10,7 +10,12 @@
 
     <section class="mapache-container">
         <img class="pedro" alt="Algo fallo" src="public/mapache.jpeg"/>
-        <audio src="public/PedroMapache.mpga" loop autoplay />
+        <audio loop autoplay>
+            <source src="PedroMapache.ogg" type="audio/ogg">
+            <source src="PedroMapache.mpga" type="audio/mpeg">
+            <source src="PedroMapache.mp3" type="audio/mpeg">
+            Don't support Music Formats
+        </audio>
     </section>
 
 <script src="main.js"></script>
