@@ -11,7 +11,7 @@
 
     <section class="mapache-container">
         <img class="pedro" alt="Algo fallo" src="public/mapache.jpeg"/>
-        <audio loop autoplay>
+        <audio id="miAudio" controls preload="auto" loop autoplay>
             <source src="public/PedroMapache.ogg" type="audio/ogg">
             <source src="public/PedroMapache.mpga" type="audio/mpeg">
             <source src="public/PedroMapache.mp3" type="audio/mpeg">
@@ -19,5 +19,8 @@
         </audio>
     </section>
 
+<script>
+    document.getElementById("miAudio").play();
+</script>
 </body>
 </html>
